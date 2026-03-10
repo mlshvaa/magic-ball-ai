@@ -1,5 +1,5 @@
 const express = require('express');
-const chatRouter = require('./src/aiResultsRouter');
+const chatRouter = require('./src/AiResultsRouter');
 const app = express();
 const cors = require('cors')
 
