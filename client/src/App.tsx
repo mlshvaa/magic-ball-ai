@@ -90,7 +90,7 @@ export default function App() {
     if (!question.trim()) return;
 
     try {
-      const response = await fetch("/api/magic/ask", {
+      const response = await fetch("https://magic-ball-ai.onrender.com/api/magic/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ theme: question }),
