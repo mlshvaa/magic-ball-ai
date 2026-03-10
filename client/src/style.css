@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(./img/background_img_3.PNG);
+  background-image: url(/img/background_img_3.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Georgia", serif;
@@ -102,7 +102,7 @@ input {
 }
 
 .question-history {
-  background-image: url(./img/history_background.jpg);
+  background-image: url(/img/history_background.jpg);
   width: 460px;
   border-radius: 12px;
   margin-top: 30px;
@@ -185,6 +185,6 @@ h2 {
 
 @media (max-width: 660px) {
   body {
-    background-image: url(./img/mobile_background.jpg);
+    background-image: url(/img/mobile_background.jpg);
   }
 }
